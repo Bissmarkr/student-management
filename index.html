@@ -4,6 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to the Student Management System</title>
+    <p>Welcome to the Student Management System</p>
+    <p>Feel free to explore the system and manage your student records.</p>
+
+    <form action="process_student_data.php" method="post">
+        <label for="student_name">Student Name:</label>
+        <input type="text" id="student_name" name="student_name" required>
+
+        <label for="student_id">Student ID:</label>
+        <input type="text" id="student_id" name="student_id" required>
+
+        <button type="submit">Submit</button>
+    </form>
 </head>
 <body>
     
